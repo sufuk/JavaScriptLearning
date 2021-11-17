@@ -33,3 +33,11 @@ while (i < friends.length){
 for (var j = 0; j < someArray.length; j++){
     console.log(someArray[j]);
 }
+
+var someOtherArray = ["cigdem", "is", "a"];
+
+someOtherArray.push("princess");
+for (var k = 0; k < someOtherArray.length; k++){
+    console.log(someOtherArray[k]);
+}
+
