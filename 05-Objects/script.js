@@ -68,3 +68,7 @@ var gasStation = {
 gasStation.fillGasToCar(toyota, 250);
 
 console.log(toyota);
+
+for (var prop in toyota) {
+    console.log(prop + ": " + chevy[prop]);
+}
